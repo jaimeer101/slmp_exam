@@ -19,7 +19,7 @@ php artisan db:seed --class=PostsSeeder\
 php artisan db:seed --class=CommentsSeeder\
 php artisan db:seed --class=AlbumsSeeder \
 php artisan db:seed --class=PhotosSeeder\
-php artisan db:seed --class=TodosSeeder\
+php artisan db:seed --class=TodosSeeder
 8. Run the below command to generate token \
 php artisan generate:user-token {existing user id}\
 sample: php artisan generate:user-token 1 \
